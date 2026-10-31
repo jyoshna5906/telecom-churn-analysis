@@ -55,8 +55,11 @@ Logistic Regression performed best on this dataset.
 |---|---|---|---|---|---|
 | Logistic Regression | 0.804 | 0.648 | 0.575 | 0.609 | 0.836 |
 | Random Forest | 0.787 | 0.621 | 0.508 | 0.559 | 0.818 |
+| Logistic Regression (balanced) | 0.726 | 0.491 | 0.797 | 0.608 | 0.835 |
 
-**Best model:** Logistic Regression (ROC-AUC 0.836), saved as `models/churn_model.pkl`.
+**Note:** The balanced model trades precision for recall (0.575 to 0.797), so it catches more customers likely to churn at the cost of more false alarms. Saved as `models/churn_model_balanced.pkl`.
+
+**Best overall model:** Logistic Regression (ROC-AUC 0.836), saved as `models/churn_model.pkl`. Use the balanced model when catching churners matters more than false alarms.
 
 ### Top Factors Affecting Churn
 
