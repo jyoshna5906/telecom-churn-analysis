@@ -71,3 +71,19 @@ Logistic Regression performed best on this dataset.
 - Fiber optic internet users show higher churn risk.
 - Add-on services like Online Security and Tech Support are linked to lower churn.
 - Electronic check payment and paperless billing are linked to higher churn.
+
+## Project Overview
+End-to-end analysis of telecom customer churn: data cleaning, exploratory analysis, a Power BI dashboard, and machine learning models to predict which customers are likely to leave.
+
+## Tech Stack
+Python (pandas, numpy, matplotlib, seaborn, scikit-learn), Jupyter Notebook, Power BI, Git/GitHub
+
+## Dataset
+IBM Telco Customer Churn dataset (7,043 customers, 21 columns).
+
+## Project Structure
+- `data/` : raw and cleaned datasets
+- `images/` : charts and dashboard screenshot
+- `models/` : saved ML models
+- `churn.ipynb` : full analysis and modeling
+- `churn_dashboard.pbix` : power BI dashboard
