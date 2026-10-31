@@ -48,3 +48,12 @@ Logistic Regression performed best on this dataset.
 3. Open `churn.ipynb` and run all cells
 
 ![Dashboard](images/dashboard.png)
+
+## Model Results
+
+| Model | Accuracy | Precision | Recall | F1 | ROC-AUC |
+|---|---|---|---|---|---|
+| Logistic Regression | 0.804 | 0.648 | 0.575 | 0.609 | 0.836 |
+| Random Forest | 0.787 | 0.621 | 0.508 | 0.559 | 0.818 |
+
+**Best model:** Logistic Regression (ROC-AUC 0.836), saved as `models/churn_model.pkl`.
