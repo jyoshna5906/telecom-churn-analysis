@@ -57,3 +57,14 @@ Logistic Regression performed best on this dataset.
 | Random Forest | 0.787 | 0.621 | 0.508 | 0.559 | 0.818 |
 
 **Best model:** Logistic Regression (ROC-AUC 0.836), saved as `models/churn_model.pkl`.
+
+### Top Factors Affecting Churn
+
+![Model Feature Importance](images/model_feature_importance.png)
+
+**Key insights:**
+- Short tenure is the strongest churn indicator; long-term customers rarely leave.
+- Customers on 1-year and 2-year contracts churn much less than month-to-month customers.
+- Fiber optic internet users show higher churn risk.
+- Add-on services like Online Security and Tech Support are linked to lower churn.
+- Electronic check payment and paperless billing are linked to higher churn.
