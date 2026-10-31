@@ -93,15 +93,38 @@ Saved models:
 
 ## 📊 Visualizations
 
-### Model Feature Importance
+The project includes the following visualizations to understand customer churn patterns and model performance.
 
+### 1. Customer Churn Distribution
+![Churn Distribution](images/churn_distribution.png)
+
+### 2. Contract Type vs Churn
+![Contract vs Churn](images/contract_vs_churn.png)
+
+### 3. Customer Dashboard
+![Dashboard](images/dashboard.png)
+
+### 4. Feature Importance
+![Feature Importance](images/feature_importance.png)
+
+### 5. Model Feature Importance
 ![Model Feature Importance](images/model_feature_importance.png)
+
+### 6. Monthly Charges vs Churn
+![Monthly Charges vs Churn](images/monthly_vs_churn.png)
+
+### 7. Payment Method vs Churn
+![Payment Method vs Churn](images/payment_vs_churn.png)
+
+### 8. Tenure vs Churn
+![Tenure vs Churn](images/tenure_vs_churn.png)
 
 Explore the Jupyter Notebook for the complete Exploratory Data Analysis, charts and model evaluation.
 
 - [View Jupyter Notebook](churn.ipynb)
 - [View HTML Report](churn.html)
 - [View Power BI Dashboard File](churn_dashboard.pbix)
+
 
 ## 💡 Business Recommendations
 
